@@ -2,9 +2,9 @@
 
 ## 当前发布内容
 
-本仓库当前提供的是**已编译的 Windows 成品**与配套资料：
+本仓库当前提供的是配套资料；Windows 成品安装包在 [Releases](../../releases) 页面提供，不纳入仓库目录：
 
-- `release/雅思取词.exe`：打包好的单文件可执行程序，双击即可运行；
+- Releases 附件：`雅思取词安装包.exe`，双击安装后使用；
 - `wordbook-template/`：4 个空白词库 Excel 模板（仅表头）；
 - `README.md`、`docs/使用说明.txt`：功能与使用文档。
 

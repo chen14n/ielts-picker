@@ -21,11 +21,12 @@
 
 ## 快速开始
 
-1. 前往 [Releases](../releases) 下载最新版 `雅思取词.exe`（仓库 `release/` 目录内也保留了一份）。
-2. 把 exe 放到**桌面或较短路径**（例如 `D:\desktop`），双击运行。
-   > 不要放在层级很深的目录或 OneDrive 等同步目录里，否则自解压可能失败（双击没反应）。
+1. 前往 [Releases](../releases) 下载最新版 `雅思取词安装包.exe`。
+2. 双击安装包，选择安装位置（默认当前用户目录，无需管理员权限），安装完成后从桌面或开始菜单启动。
 3. 右下角托盘出现黑白「词」图标即启动成功。首次运行会在桌面生成空的「雅思生词本」。
 4. 在网页、PDF、Word 里拖选英文，松手即弹出黑色弹窗；点「☆ 收藏」保存到词库。
+
+> Windows 成品安装包只在 [Releases](../releases) 提供，不纳入仓库目录；仓库树内只保留文档与空白词库模板。
 
 > **Windows SmartScreen 提示**：未做代码签名，首次运行可能弹出 SmartScreen。选择「更多信息 → 仍要运行」即可；个别杀毒软件可能误报，可添加信任。
 
@@ -99,18 +100,18 @@ ielts-picker/
 ├── LICENSE                    # MIT 许可证
 ├── docs/
 │   └── 使用说明.txt            # 面向普通用户的简明说明
-├── wordbook-template/         # 4 个空白词库模板（仅表头）
-│   ├── 词语.xlsx
-│   ├── 短语.xlsx
-│   ├── 句子.xlsx
-│   └── 同义替换.xlsx
-└── release/
-    └── 雅思取词.exe            # 已打包的 Windows 成品（直接运行）
+└── wordbook-template/         # 4 个空白词库模板（仅表头）
+    ├── 词语.xlsx
+    ├── 短语.xlsx
+    ├── 句子.xlsx
+    └── 同义替换.xlsx
 ```
+
+> Windows 安装包见 [Releases](../releases)，不在本目录结构内。
 
 ## 从源码构建（暂未随仓库发布）
 
-> **状态说明**：当前仓库发布的是已编译的 Windows 成品与文档；原始 Python 源码暂未包含在本仓库中，详见 [`SOURCE-NOTE.md`](SOURCE-NOTE.md)。历史版本使用 Windows + Python 3.9+ 开发、PyInstaller 打包，后续补回源码后将在这里补充完整的依赖清单与构建步骤。
+> **状态说明**：仓库树只包含文档与空白词库模板；Windows 安装包通过 [Releases](../releases) 提供，原始 Python 源码暂未包含，详见 [`SOURCE-NOTE.md`](SOURCE-NOTE.md)。历史版本使用 Windows + Python 3.9+ 开发、PyInstaller 打包，后续补回源码后将在这里补充完整的依赖清单与构建步骤。
 
 历史构建方式（供参考，待源码补齐后验证）：
 
